@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+<html @Html.Raw(ViewBag.HtmlAttr)>
+    <head>
+        <meta charset="windows-1251">
+        <meta http-equiv="X-UA-Compatible" content="IE=7; IE=Edge">
+        <title>
+            @(ViewBag.Title)
+        </title>
+        <link href="@Url.Content("~/Content/Css/Layout.css")" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="header">
+            <div>
+                
+            </div>
+        </div>
+        <div id="body">
+            @RenderBody()
+        </div>
+        <div id="footer">
+            <div class="container">
+            <div class="icons">
+                <a href="http://www.facebook.com/eventpromo">
+                    <img src="~/Content/images/icons/facebook.png" alt="facebook" />
+                </a>
+                <a href="http://www.linkedin.com/pub/sergey-guk/49/14b/a7b">
+                    <img src="~/Content/images/icons/linkedin.png" alt="linkedin" />
+                </a>
+                <a href="https://vk.com/eventpromo">
+                    <img src="~/Content/images/icons/vkontakte.png" alt="vkontakte" />
+                </a>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
+

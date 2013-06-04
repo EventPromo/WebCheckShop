@@ -1,29 +1,23 @@
-﻿body
-{
+﻿body{
     font-family: 'Segoe UI', Tahoma, Helvetica, Sans-Serif;
-    margin: 0;
-    padding: 150px 0 55px 0;
-    background: #EFEFF2;
+    margin: 0;    
+    background: #EFEFF2;    
 }
 a {
     text-decoration: none;
-    padding: 0;
-    margin: 0;
-    color: #00AEF0;
 }
-#header
-{
+#header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 40px;
     border-bottom: 3px ridge #ED9D47;
     background: #3D3D3D;
     z-index: 1000;
     opacity: 0.8;
 }
-#footer
-{
+#footer{
     position: fixed;
     bottom: 0;
     left: 0;
@@ -35,17 +29,40 @@ a {
     opacity: 0.8;
 }
 #body {
+    width: 100%;
+    height: 100%;   
+}
+#header .container {
+    width: 950px;
     margin: 0 auto;
+    height: 100%;    
+    text-align: center;
+}
+#body .container {    
+    margin: 15% auto;
+    height: 100%;    
+    text-align: center;
     padding: 25px;
+    background: #3D3D3D;
     width: 800px;
-    background-color: #FF9105;
-    background-color: rgba(255, 184, 59, 0.8);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
 }
 #footer .container {
     width: 950px;
     margin: 0 auto;
-    height: 100%;
+    height: 100%;    
+    text-align: center;    
+    background: #3D3D3D;
+}
+
+#footer .icons {
+    display:inline-block;   
+    margin-top: 5px; 
+}
+#footer .icons a img {
+    width: 30px;    
+}
+
+#body .hello {
+    width: 800px;
 }

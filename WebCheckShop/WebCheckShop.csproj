@@ -116,6 +116,9 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="Content\Css\Layout.css" />
     <Content Include="Content\Images\home.jpg" />
+    <Content Include="Content\Images\Icons\facebook.png" />
+    <Content Include="Content\Images\Icons\linkedin.png" />
+    <Content Include="Content\Images\Icons\vkontakte.png" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

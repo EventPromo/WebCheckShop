@@ -16,5 +16,14 @@ namespace WebCheckShop.Controllers
             return View();
         }
 
+        //
+        // GET: /Request/
+
+        public ActionResult Request()
+        {
+            return View();
+        }
+
+
     }
 }

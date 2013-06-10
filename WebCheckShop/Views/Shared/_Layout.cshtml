@@ -12,10 +12,10 @@
     <div id="header">
         <div class="container">
            <div class="logo">
-               a
+               <a href="@Url.RouteUrl("Default", new { controller = "Home", action = "Index" })">EventPromo <i style="color: red;">Company</i></a>
            </div>
            <div class="login">
-               s
+               @Html.RouteLink("Login", "User", new { id = 1 }, new { })
            </div>
         </div>
     </div>

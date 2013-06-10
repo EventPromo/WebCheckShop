@@ -66,3 +66,20 @@ a {
 #body .hello {
     width: 800px;
 }
+
+#header .logo, #header .login {
+    display: inline-block;   
+    float: left;
+    margin-top: 10px;
+    color: #b6ff00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#header .login { 
+    float: right;     
+}
+
+#header .logo a, #header .login a {
+    color: #b6ff00;
+}

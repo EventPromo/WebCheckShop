@@ -11,6 +11,7 @@ namespace DataAccessLayer
     {
         public List<User> GetUser()
         {
+            
             return new List<User>();
         }
 

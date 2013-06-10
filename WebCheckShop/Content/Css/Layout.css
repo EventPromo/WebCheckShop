@@ -11,7 +11,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    height: 40px;
+    height: 60px;
     border-bottom: 3px ridge #ED9D47;
     background: #3D3D3D;
     z-index: 1000;
@@ -39,7 +39,7 @@ a {
     text-align: center;
 }
 #body .container {    
-    margin: 15% auto;
+    margin: 120px auto;
     height: 100%;    
     text-align: center;
     padding: 25px;

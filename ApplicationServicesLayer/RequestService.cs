@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ApplicationServicesLayer
 {
-    public class Class1
+    public class RequestService
     {
     }
 }
